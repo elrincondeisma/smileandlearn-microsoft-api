@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Smileanlearn\Microsoft\Handlers;
+namespace Smileandlearn\Microsoft\Handlers;
 /**
  * 
  */

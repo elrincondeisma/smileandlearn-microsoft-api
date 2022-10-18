@@ -1,6 +1,6 @@
 <?php
 
-namespace Smileanlearn\Microsoft\Models;
+namespace Smileandlearn\Microsoft\Models;
 
 use GuzzleHttp\Exception\ClientException;
 use Microsoft\Graph\Model\User as MicrosoftUser;

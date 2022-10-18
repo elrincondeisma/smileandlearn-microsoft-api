@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Smileanlearn\Microsoft\Models;
+namespace Smileandlearn\Microsoft\Models;
 
 use GuzzleHttp\Exception\ClientException;
 use Microsoft\Graph\Graph;
 use Microsoft\Graph\Model\User;
-use Smileanlearn\Microsoft\mAuth;
-use Smileanlearn\Microsoft\Handlers\Session;
+use Smileandlearn\Microsoft\mAuth;
+use Smileandlearn\Microsoft\Handlers\mSession;
 
 
 /**
@@ -19,7 +19,7 @@ class BaseModel
     public function graph()
     {
         $this->graph = new Graph();
-        $this->graph->setAccessToken(Session::get("accessToken")); 
+        $this->graph->setAccessToken(mSession::get("accessToken")); 
         return $this->graph;
     }
     public function checkAuthentication() :bool

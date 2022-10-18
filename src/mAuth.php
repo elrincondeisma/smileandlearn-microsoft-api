@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Smileanlearn\Microsoft;
+namespace Smileandlearn\Microsoft;
 
-use Smileanlearn\Microsoft\Handlers\mSession;
+use Smileandlearn\Microsoft\Handlers\mSession;
 
 
 class mAuth  {

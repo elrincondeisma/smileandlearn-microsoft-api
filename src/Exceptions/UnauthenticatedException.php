@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Smileanlearn\Microsoft\Exceptions;
+namespace Smileandlearn\Microsoft\Exceptions;
 
 use Exception;
 /**

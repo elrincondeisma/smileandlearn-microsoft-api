@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Smileanlearn\\Microsoft\\": "src"
+            "Smileandlearn\\Microsoft\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Smileanlearn\\Microsoft\\Test\\": "tests"
+            "Smileandlearn\\Microsoft\\Test\\": "tests"
         }
     },
     "scripts": {
